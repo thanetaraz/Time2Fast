@@ -5,10 +5,12 @@ import App from './App.jsx';
 import Register from './pages/RegisterPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import PageNotFound from './pages/PageNotFound.jsx';
+import UserDashboard from './pages/UserDashboard.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   { path: '/', element: <LoginPage /> },
+  { path: '/dashboard', element: <UserDashboard /> },
   { path: '/register', element: <Register /> },
   { path: '/*', element: <PageNotFound /> },
 ]);
