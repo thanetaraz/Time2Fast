@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import InputField from '../components/form/InputField';
-import Button from '../components/form/Button';
+import InputField from '../components/common/InputField';
+import Button from '../components/common/Button';
 function RegisterPage() {
   return (
     <>
